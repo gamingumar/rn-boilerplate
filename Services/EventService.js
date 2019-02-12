@@ -24,3 +24,7 @@ export const fetchEvents = async (page = 1, limit = 2) => {
 
     return parseEvents(data);
 }
+
+export const eventService = {
+    fetchEvents,
+}
