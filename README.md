@@ -14,3 +14,4 @@ yarn
 yarn start
 ```
 
+Inspired by https://github.com/thecodingmachine/react-native-boilerplate
