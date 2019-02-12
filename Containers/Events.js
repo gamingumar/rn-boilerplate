@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Text, View, ScrollView } from 'react-native'
-import { fetchEvents } from '../Services/EventService';
+import { eventService } from '../Services/EventService';
 
 export default class Events extends Component {
     state = {
@@ -8,7 +8,7 @@ export default class Events extends Component {
     }
     
     async componentDidMount() {
-        const events = await fetchEvents();
+        const events = await eventService.fetchEvents();
 
         console.log('got data: ', events);
 
