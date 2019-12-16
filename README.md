@@ -1,6 +1,9 @@
-# API Usage Pattern implementation
+# Discontinued. Please follow https://github.com/gamingumar/react-directory-structure/
 
-### React Native Boilerplate https://umar.tech
+
+## API Usage Pattern implementation
+
+### React Native Boilerplate https://gamingumar.com
 
 ### Config File initialize
 ```
